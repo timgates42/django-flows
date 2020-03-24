@@ -444,7 +444,7 @@ class FlowPositionInstance(object):
             raise ValueError('Could not figure out how to redirect to %s' % FC)
 
         # so the new tree is from the root to the parent of the one we just found,
-        # coupled with the initial subtree from the component we're tring to redirect
+        # coupled with the initial subtree from the component we're trying to redirect
         # to
         tree_root = self._position.flow_component_classes[:idx+1]
         
